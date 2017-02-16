@@ -24,6 +24,9 @@ namespace ZendeskApi_v2.Models.Search
         [JsonProperty("body")]
         public string Body { get; set; }
 
+        [JsonProperty("problem_id")]
+        public string ProblemId { get; set; }
+
         [JsonProperty("description")]
         public string Description { get; set; }
 
